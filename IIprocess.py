@@ -7,7 +7,7 @@ import time
 
 
 
-#в процессах блокировщик нужно явно передавать, чтобы использовать его
+#в процессах блокировщик нужно явно перdдавать, чтобы использовать его
 def add_value(locker, data: Array, start, end: Value, result: Value):
     with locker:
         sum = 0
